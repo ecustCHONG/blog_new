@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2cf6364-be04-4466-8c62-6a67098cec9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/log/blog-dev.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/star/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593966155880</updated>
-      <workItem from="1593966159653" duration="16398000" />
+      <workItem from="1593966159653" duration="17175000" />
     </task>
     <task id="LOCAL-00001" summary="版本1.0">
       <created>1593968305486</created>
@@ -95,7 +92,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593968305486</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="版本1.0">
+      <created>1594051364380</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594051364381</updated>
+    </task>
+    <task id="LOCAL-00003" summary="版本1.0">
+      <created>1594051495776</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594051495776</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,10 +130,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="225" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1594048893184" />
-    <state x="459" y="113" key="CommitChangelistDialog2" timestamp="1594051421996">
+    <state x="459" y="113" key="CommitChangelistDialog2" timestamp="1594051489562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="459" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594051421996" />
+    <state x="459" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594051489562" />
     <state width="1877" height="145" key="GridCell.Tab.0.bottom" timestamp="1594048858718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -179,10 +190,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594051399211" />
-    <state x="659" y="322" key="git4idea.merge.GitPullDialog" timestamp="1594051428013">
+    <state x="659" y="322" key="git4idea.merge.GitPullDialog" timestamp="1594052056404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="659" y="322" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594051428013" />
+    <state x="659" y="322" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594052056404" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -306,61 +317,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/star/web/admin/LoginController.java</url>
           <line>38</line>
           <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/star/Solution.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/star/Solution.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/star/Solution.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/star/Solution.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="82" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/star/Solution.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="83" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/star/Solution.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="84" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/star/Solution.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="85" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/star/Solution.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="86" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/star/Solution.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="87" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/star/Solution.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="88" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/star/Solution.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="89" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
