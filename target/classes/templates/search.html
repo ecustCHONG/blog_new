@@ -21,9 +21,10 @@
         <a href="#" th:href="@{/archives}" class="m-item item m-mobile-hide"><i class="clock icon"></i>时间轴</a>
         <a href="#" th:href="@{/music}" class="m-item item m-mobile-hide"><i class="music icon"></i>音乐盒</a>
         <a href="#" th:href="@{/message}" class="m-item item m-mobile-hide"><i class="book icon"></i>留言板</a>
-        <a href="#" th:href="@{/friends}" class="m-item item m-mobile-hide"><i class="pencil alternate icon"></i>友人帐</a>
         <a href="#" th:href="@{/picture}" class="m-item item m-mobile-hide"><i class="image icon"></i>照片墙</a>
         <a href="#" th:href="@{/about}" class="m-item item m-mobile-hide"><i class="info icon"></i>关于我</a>
+        <a href="#" th:href="@{/admin}" class="m-item item m-mobile-hide"><i class="pencil alternate icon"></i>后台管理</a>
+
       </div>
       <div class="right m-item item m-mobile-hide">
         <form name="search" action="#" th:action="@{/search}" method="post" target="_blank">
@@ -212,7 +213,7 @@
       }
       function setTime() {
           /*此处为网站的创建时间*/
-          var create_time = Math.round(new Date(Date.UTC(2020, 01, 25, 15, 15, 15)).getTime() / 1000);
+        var create_time = Math.round(new Date(Date.UTC(2020, 06, 05, 15, 15, 15)).getTime() / 1000);
           var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
           currentTime = secondToDate((timestamp - create_time));
           currentTimeHtml = currentTime[0] + '年' + currentTime[1] + '天'

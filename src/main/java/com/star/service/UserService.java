@@ -10,4 +10,8 @@ import com.star.po.User;
 public interface UserService {
 
     User checkUser(String username, String password);
+
+    void register(String username, String password);
+
+    User checkByUsername(String username);
 }

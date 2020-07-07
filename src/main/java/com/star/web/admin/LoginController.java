@@ -25,7 +25,7 @@ public class LoginController {
     @Autowired
     private UserService userService;
 
-    @GetMapping
+    @GetMapping("")
     public String loginPage() {
         return "admin/login";
     }
@@ -45,6 +45,28 @@ public class LoginController {
             attributes.addFlashAttribute("message", "用户名和密码错误");
             return "redirect:/admin";
         }
+    }
+
+    @GetMapping("/register1")
+    public String register1(){
+        return "admin/register";
+    }
+    @PostMapping("/register")
+    public String register(@RequestParam String username,
+                   @RequestParam String password,
+                   HttpSession session,
+                   RedirectAttributes attributes) {
+
+        User user=userService.checkByUsername(username);
+            if (user != null) {
+                attributes.addFlashAttribute("message", "用户名已被使用，请重试！");
+                return "admin/register";
+            }else{
+                userService.register(username,password);
+                attributes.addFlashAttribute("message", "注册成功！");
+                return "redirect:/admin";
+            }
+
     }
 
     @GetMapping("/logout")
