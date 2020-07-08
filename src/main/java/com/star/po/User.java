@@ -23,6 +23,7 @@ public class User {
     private String email;
     private String avatar;
     private Integer type;
+    private String perms;
     @Temporal(TemporalType.TIMESTAMP)
     private Date createTime;
     @Temporal(TemporalType.TIMESTAMP)
@@ -32,6 +33,14 @@ public class User {
     private List<Blog> blogs = new ArrayList<>();
 
     public User() {
+    }
+
+    public String getPerms() {
+        return perms;
+    }
+
+    public void setPerms(String perms) {
+        this.perms = perms;
     }
 
     public Long getId() {

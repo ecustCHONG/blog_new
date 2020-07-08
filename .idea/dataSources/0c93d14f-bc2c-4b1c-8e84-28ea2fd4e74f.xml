@@ -12,7 +12,7 @@
       <Collation>utf8_general_ci</Collation>
     </schema>
     <schema id="3" parent="1" name="myblog">
-      <Collation>latin1_swedish_ci</Collation>
+      <Collation>utf8_general_ci</Collation>
     </schema>
     <schema id="4" parent="1" name="mysql">
       <Collation>latin1_swedish_ci</Collation>
@@ -1120,7 +1120,12 @@
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="311" parent="240" name="PRIMARY">
+    <column id="311" parent="240" name="perms">
+      <Position>10</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="312" parent="240" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

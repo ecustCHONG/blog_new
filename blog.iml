@@ -36,7 +36,24 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-aop:1.5.7.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: com.github.theborakompanioni:thymeleaf-extras-shiro:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.shiro:shiro-spring-boot-web-starter:1.5.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.shiro:shiro-spring-boot-starter:1.5.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.shiro:shiro-spring:1.5.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.shiro:shiro-core:1.5.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.shiro:shiro-lang:1.5.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.shiro:shiro-cache:1.5.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.shiro:shiro-crypto-hash:1.5.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.shiro:shiro-crypto-core:1.5.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.shiro:shiro-crypto-cipher:1.5.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.shiro:shiro-config-core:1.5.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.shiro:shiro-config-ogdl:1.5.3" level="project" />
+    <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.9.3" level="project" />
+    <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.shiro:shiro-event:1.5.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.shiro:shiro-web:1.5.3" level="project" />
+    <orderEntry type="library" name="Maven: org.owasp.encoder:encoder:1.2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:1.5.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-logging:1.5.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.1.11" level="project" />
@@ -44,6 +61,7 @@
     <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:1.7.25" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:log4j-over-slf4j:1.7.25" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.yaml:snakeyaml:1.17" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-aop:1.5.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.3.11.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.3.11.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.8.10" level="project" />
@@ -97,7 +115,6 @@
     <orderEntry type="library" name="Maven: com.atlassian.commonmark:commonmark-ext-gfm-tables:0.10.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.springframework.boot:spring-boot-devtools:1.5.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:1.5.7.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.7.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: mysql:mysql-connector-java:5.1.44" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:1.5.7.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:1.5.7.RELEASE" level="project" />
