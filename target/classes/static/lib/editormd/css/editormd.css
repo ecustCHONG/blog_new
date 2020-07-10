@@ -273,7 +273,7 @@
 .editormd-dialog-container {
   position: relative;
   padding: 20px;
-  line-height: 1.4;
+  line-height: 2;
 }
 .editormd-dialog-container h1 {
   font-size: 24px;
@@ -561,7 +561,7 @@
 }
 .editormd-form input[type="text"] {
   display: inline-block;
-  width: 264px;
+  width: 370px;
 }
 .editormd-form .fa-btns {
   display: inline-block;
